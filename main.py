@@ -15,5 +15,5 @@ def main():
     if st.button("Smart City"):
         webbrowser.open_new_tab("https://smart-city-management.streamlit.app/")
 
-if name == "main":
+if __name__ == "__main__":
     main()
